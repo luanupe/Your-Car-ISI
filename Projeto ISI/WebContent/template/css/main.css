@@ -1,0 +1,274 @@
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+nav{
+
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Parallax Scroll
+   ========================================================================== */
+body, html {
+	height: 100%;
+	min-height: 100%;
+	background-color: #000000;
+}
+body {
+	
+}
+.no-js {
+	padding-top: 106px;
+}
+h2 {
+	margin-top: 0;
+}
+.loading {
+	background: url('../images/ico_loading.gif') no-repeat center center;
+}
+section {
+	min-width: 960px;
+	opacity: 0;
+}
+.loaded section,
+.no-js section {
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
+}
+main {
+	overflow-x: hidden;
+}
+#preload {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.hsContainer {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.hsContent {
+	max-width: 700px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+	.hsContent h2  {
+		color: #fff8de;
+		background-color: rgba(0,0,0,0.5);
+		padding: 10px 5px;
+		font-size: 35px;
+		line-height: 38px;
+		margin-bottom: 12px;
+	}
+	.hsContent p {
+	    color: #fff8de;
+        background-color: rgba(0,0,0,0.5);
+        font-size: 17px;
+        margin-bottom: 12px;	
+	}
+	.hsContent a {
+		color: #b2b2b2;
+		text-decoration: underline;
+	}
+
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../images/carros/camaro1.jpg')}
+#slide-1 .hsContent {
+	bottom: 200px;
+	top: auto;
+}
+
+/* Slide 2 */
+#slide-2 .bcg {background-image:url('../images/carros/mustang701.jpg')}
+#slide-2 .hsContent {
+	margin-left: -239px;
+}
+
+#slide-2 h2 {
+	color: #f2ead6;
+	background-color: rgba(0,0,0,0.6);
+}
+
+/* Slide 3 */
+#slide-3 .bcg {background-image:url('../images/carros/opala4.jpg')}
+#slide-3 .hsContent {
+	margin-left: -239px;
+}
+	#slide-3 h2 {
+		color: #f2ead6;
+		background-color: rgba(0,0,0,0.6);
+	}
+
+/* Slide 4 */
+#slide-4 .bcg {background-image:url('../images/carros/srt3.jpg')}
+#slide-4 .hsContent {
+	margin-left: -450px;
+	position: relative;
+	top: 250px;
+}
+	#slide-4 h2 {
+		background: none;
+		padding-left: 0;
+		padding-right: 0;
+
+	}
+
+#slide-5 .bcg {background-image:url('../images/carros/land1.jpg')}
+#slide-5 .hsContent {
+	bottom: 200px;
+	top: auto;
+}	
+
+#slide-6 .bcg {background-image:url('../images/carros/jeep3.jpg')}
+#slide-6 .hsContent {
+	margin-left: -239px;
+}
+	#slide-6 h2 {
+		color: #f2ead6;
+		background-color: rgba(0,0,0,0.6);
+	}
+
+#slide-7 .bcg {background-image:url('../images/carros/fusca1.jpg')}
+#slide-7 .hsContent {
+	bottom: 200px;
+	top: auto;
+}	
+
+#slide-8 .bcg {background-image:url('../images/carros/mini3.jpg')}
+#slide-8 .hsContent {
+	margin-left: -239px;
+}
+	#slide-8 h2 {
+		color: #f2ead6;
+		background-color: rgba(0,0,0,0.6);
+	}	
+
+#slide-9 .bcg {background-image:url('../images/carros/brasilia1.jpg')}
+#slide-9 .hsContent {
+	margin-left: -239px;
+}
+	#slide-9 h2 {
+		color: #f2ead6;
+		background-color: rgba(0,0,0,0.6);
+	}		
+
+#slide-10 .bcg {background-image:url('../images/carros/AstonMartin1.jpg')}
+#slide-10 .hsContent {
+	bottom: 200px;
+	top: auto;
+}	
+
+#slide-11 .bcg {background-image:url('../images/carros/cobra1.jpg')}
+#slide-11 .hsContent {
+	margin-left: -239px;
+}
+	#slide-11 h2 {
+		color: #f2ead6;
+		background-color: rgba(0,0,0,0.6);
+	}	
+
+#slide-12 .bcg {background-image:url('../images/carros/fordRoadster1.jpg')}
+#slide-12 .hsContent {
+	margin-left: -239px;
+}
+	#slide-12 h2 {
+		color: #f2ead6;
+		background-color: rgba(0,0,0,0.6);
+	}			
